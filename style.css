@@ -83,7 +83,7 @@ li {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url("/Users/natalie/Portfolio_Projects/portfolio_website/Resources/alexander-grey-62vi3TG5EDg-unsplash.jpg");
+    background-image: url("Resources/alexander-grey-62vi3TG5EDg-unsplash.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -208,7 +208,7 @@ li {
     min-height: 100%;
     width: 100%;
     padding: 6rem;
-    background-image: url("/Users/natalie/Portfolio_Projects/portfolio_website/Resources/alexander-grey-NkQD-RHhbvY-unsplash.jpg");
+    background-image: url("Resources/alexander-grey-NkQD-RHhbvY-unsplash.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
