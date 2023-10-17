@@ -1,0 +1,236 @@
+/* GLOBAL STYLES */
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body,
+main {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    text-align: center;
+}
+
+/* TYPOGRAPHY STYLES */
+
+html {
+    font-size: 16px;
+}
+
+h1,
+h2 {
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+h3,
+h4,
+h5,
+h6,
+a,
+p,
+span,
+li {
+    font-family: 'Sintony', sans-serif;
+}
+
+/* SECTION STYLES */
+
+/* Navigation */
+
+.site-header {
+    background-color: hsla(235, 19%, 39%, 0.6);
+    padding: 10px 8px;
+    position: fixed;
+    width: 100%;
+}
+
+.site-header-nav {
+    align-items: center;
+    display: flex;
+}
+
+.nav-list {
+    list-style: none;
+    display: inline-flex;
+    float: right;
+    margin-left: auto;
+}
+
+.site-nav-link {
+    text-decoration: none;
+    margin-right: 70px;
+    color: hsla(0, 40%, 90%, 1);
+    transition: all 0.25s linear 0s;
+    font-size: 1.1rem;
+}
+
+.site-nav-link:hover {
+    color: hsla(235, 19%, 30%, 1);
+}
+
+/* Hero */
+
+#hero {
+    height: auto;
+    min-height: 100%;
+    width: 100%;
+    padding: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/Users/natalie/Portfolio_Projects/portfolio_website/Resources/alexander-grey-62vi3TG5EDg-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#hero h1 {
+    color: hsla(235, 19%, 30%, 1);
+    font-size: 5rem;
+    margin: 0;
+}
+
+#hero p {
+    color: hsla(235, 19%, 39%, 1);
+    font-size: 3rem;
+    margin: 0;
+}
+
+/* Buttons */
+
+.button {
+    margin-top: 3rem;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: hsla(235, 19%, 39%, 0.6);
+    color: hsla(0, 40%, 90%, 1);
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    transition: all 0.25s linear 0s;
+}
+
+.button:hover {
+    background-color: hsla(235, 19%, 30%, 1);
+}
+
+/* About */
+
+#about {
+    height: auto;
+    min-height: 100%;
+    width: 100%;
+    padding: 6rem;
+    background-color: hsla(235, 19%, 70%, 0.8);
+}
+
+#about-container {   
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+#about h2 {
+    color: hsla(235, 19%, 30%, 1);
+    font-size: 2rem;
+}
+
+#about img {
+    height: 20rem;
+    width: 20rem;
+    border-radius: 50%;
+    border: 2px solid hsla(0, 40%, 90%, 1);
+    margin: 2rem;
+}
+
+#about p {
+    width: 25rem;
+    margin: 1rem 2rem;
+    line-height: 2rem;
+    color: hsla(235, 19%, 30%, 1);
+    flex: 1;
+}
+
+/* Projects */
+
+#projects {
+    height: auto;
+    min-height: 100%;
+    width: 100%;
+    padding: 6rem;
+    background-color: hsla(0, 40%, 80%, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#projects h2 {
+    color: hsla(235, 19%, 30%, 1);
+    font-size: 2rem;
+}
+
+#projects h3 {
+    color: hsla(235, 19%, 39%, 1);
+    font-size: 1.5rem;
+}
+
+#projects-container {
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.project-container {
+    margin: 3rem;
+    padding: 2rem 0rem;
+    width: 20rem;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid hsla(0, 40%, 90%, 1);
+    border-radius: 10px;
+    background-color: hsla(0, 40%, 90%, 1);
+    box-shadow: 0 4px 8px 0 hsla(235, 19%, 39%, 0.6);
+}
+
+/* Contact */
+
+#contact {
+    height: auto;
+    min-height: 100%;
+    width: 100%;
+    padding: 6rem;
+    background-image: url("/Users/natalie/Portfolio_Projects/portfolio_website/Resources/alexander-grey-NkQD-RHhbvY-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#contact h2 {
+    color: hsla(235, 19%, 30%, 1);
+    font-size: 2rem;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 550px) {
+    html {
+        font-size: 12px;
+    }
+    
+    .button {
+        margin: 1rem;
+    }
+
+    .site-header {
+        display: none;
+    }
+}
